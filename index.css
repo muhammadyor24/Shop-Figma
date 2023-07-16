@@ -13,6 +13,10 @@ nav {
     display: flex;
     justify-content: space-between;
     text-decoration: none;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .left1 {
@@ -20,10 +24,11 @@ nav {
     gap: 30px;
 }
 
-.left1 a {
+.left1 a{
     color: black;
-    font-style: normal;
+    text-decoration: none;
     gap: 40px;
+    font-size: 20px;
 }
 
 header {
@@ -72,6 +77,10 @@ header button {
     color: black;
 }
 
+.section1{
+    margin: 0px 0px 50px 0px;
+}
+
 .section1top {
     padding: 0 100px;
     width: 100%;
@@ -99,8 +108,8 @@ header button {
 }
 
 .divota {
+    margin: 0px 0px 0px 0;
     width: 100%;
-    height: 105vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -113,14 +122,12 @@ header button {
 .rightpage {
     width: 15%;
     height: 100%;
-    padding: 60vh 0;
     align-items: center;
 }
 
 .section2 {
-    margin: 50px 0;
+    margin: 0px 00px 100px 0;
     width: 100%;
-    height: 120vh;
     padding: 0 75px;
     display: flex;
     align-items: center;
@@ -161,7 +168,7 @@ header button {
 }
 
 .section3 {
-    margin: 50px 0;
+    margin: 100px 0 100px 0;
     width: 100%;
     height: 120vh;
     padding: 0 75px;
@@ -200,7 +207,7 @@ header button {
 }
 
 .section4 {
-    margin: 50px 0;
+    margin: 100px 0 100px 0;
     width: 100%;
     height: 120vh;
     padding: 0 75px;
@@ -243,6 +250,7 @@ header button {
 }
 
 .section5 {
+    margin: 100px 0 100px 0;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -342,4 +350,10 @@ footer {
     height: 100%;
     padding: 60vh 0;
     align-items: center;
+}
+
+.top{
+    position: sticky;
+    left: 95%;
+    bottom: 30px;
 }
